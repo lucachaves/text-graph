@@ -1,0 +1,17 @@
+Blog Database
+
+users
+id:   int(10), not null, pk
+name: varchar(255)
+
+articles
+id:      int(10), not null, pk
+title:   varchar(255)
+text:    varchar(255)
+user_id: int(10), fk
+
+comments
+id:         int(10), not null, pk
+text:       varchar(255)
+article_id: int(10), fk
+user_id:    int(10), fk

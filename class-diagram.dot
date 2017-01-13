@@ -1,0 +1,34 @@
+/*
+  Blog Model
+
+  User
+  id: int
+  name: string
+
+  Article
+  id: int
+  title: string
+  text: string
+
+  Comment
+  id: int
+  text: string
+*/
+
+digraph db_blog {
+  subgraph cluster_0 {
+    node [shape=record];
+    User [label="{User|-id: int\l-name: string\l|+getId(): Integer\l+setId(id: Integer): void\l+getName(): String\l+setName(name: String): void\l}"]
+    Article [label="{Article|-id: int\l-title: string\l-text: string|}"]
+    Comment [label="{Comment|-id: int\l-text: string|}"]
+
+    edge [arrowhead="none" arrowtail="diamond" dir="both"]
+    Article -> Comment [label="comments"]
+    User -> Comment [label="comments"]
+    User -> Article [label="articles"]
+
+    label="app";
+    color=blue;
+  }
+
+}

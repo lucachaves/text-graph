@@ -1,0 +1,32 @@
+@startuml
+skinparam classAttributeIconSize 0
+skinparam monochrome true
+hide circle
+
+package App{
+
+    User *-- Article: users
+    User *-- Comment: comments
+    Article *-- Comment: comments
+
+    class User{
+      -id: Integer
+      -name: String
+      +getId(): Integer
+      +setId(id: Integer): void
+      +getName(): String
+      +setName(name: String): void
+    }
+
+    class Article{
+      -id: Integer
+      -title: String
+      -text: String
+    }
+
+    class Comment{
+      -id: Integer
+      -text: String
+    }
+}
+@enduml
