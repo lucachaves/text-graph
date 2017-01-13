@@ -1,4 +1,9 @@
+Comnand
+dot -Tpng graph.dot > graph.png
+java -jar plantuml.jar class.puml -tpng class.png
+http://g.gravizo.com/g?plantuml code
 
+TODO
 Chapter 1: From zero to deploy | Ruby on Rails Tutorial (Rails 5) | Softcover.io
 https://www.railstutorial.org/book/beginning
 

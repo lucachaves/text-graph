@@ -1,0 +1,28 @@
+digraph Couriers {
+  fontname = "Bitstream Vera Sans"
+  fontsize = 8
+
+  node [
+  fontname = "Bitstream Vera Sans"
+  fontsize = 8
+  shape = "record"
+  ]
+
+  edge [
+  arrowtail = "empty"
+  ]
+
+  Courier [
+    # label = "{Courier|+ name : string\l+ home_country : string\l|+ calculateShipping() : float\l+ ship(): boolean\l}"
+    label = "{
+      Courier
+      |+ name : string \
+      \l+ home_country : string\l
+      |
+      + calculateShipping() : float \
+      \l+ ship(): boolean \
+      \l+ ship(): boolean\l
+    }"
+  ]
+
+}

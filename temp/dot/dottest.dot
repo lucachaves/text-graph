@@ -1,0 +1,12 @@
+digraph unix {
+  nodesep=.35;
+  ranksep=0.8;
+  edge [fontsize=11,labelfontsize=11];
+  node [fontsize=11,height=.35,width=.55];
+  bgcolor="#FFFFFF";
+  ratio=auto;
+  compound=true;
+  remincross=true;
+  searchsize=500;
+  cl1 [fontcolor="#000000",margin=0,fillcolor="#FEFECE",color="#A80036",style=filled,shape=box,label=<<TABLE BGCOLOR="#FEFECE" BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4"><TR><TD><TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD ALIGN="RIGHT"><IMG SRC="stereo.png"/></TD><TD ALIGN="LEFT"><FONT POINT-SIZE="12"  COLOR="#000000">Dummy</FONT></TD></TR></TABLE></TD></TR><TR ALIGN="LEFT"><TD WIDTH="55" ALIGN="LEFT"></TD></TR><TR ALIGN="LEFT"><TD ALIGN="LEFT"></TD></TR></TABLE>>];
+}

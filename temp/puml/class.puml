@@ -1,0 +1,24 @@
+@startuml
+'General styling
+skinparam shadowing false
+hide circle
+
+skinparam noteBackgroundColor White
+skinparam noteBorderColor Black
+
+'Class diagram styling
+skinparam packageBackgroundColor White
+skinparam packageBorderColor Black
+skinparam classAttributeIconSize 0
+skinparam class {
+  BackgroundColor White
+  ArrowColor Black
+  BorderColor Black
+}
+
+class Student {
+  {static} +name: string
+  +Lock(): void
+}
+
+@enduml
