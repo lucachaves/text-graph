@@ -28,6 +28,9 @@ https://www.railstutorial.org/book/user_microposts
 Untitled Diagram.html - draw.io
 https://www.draw.io/#G0BzZ9SgD909fOSEJWU0ZaemhzbE0
 
+Beautiful hand-drawn block diagrams from plain text
+http://shakydraw.com/#
+
 sitemap - Google Search
 https://www.google.com.br/search?q=sitemap+graph&newwindow=1&espv=2&biw=1440&bih=754&site=webhp&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjP9PLJ68LPAhUDHpAKHUSWChAQ_AUIBigB#newwindow=1&tbm=isch&q=sitemap&imgrc=oCSc8UqQZiERZM%3A
 
